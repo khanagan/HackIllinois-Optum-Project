@@ -49,7 +49,7 @@ var app6 = new Vue({
     }
 })
 
-Vue.componenet('todo-item', {
+Vue.component('todo-item', {
     props: ['todo'],
     template: '<li>{{ todo.text }}</li>'
 })
