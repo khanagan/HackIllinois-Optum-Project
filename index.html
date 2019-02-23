@@ -3,6 +3,8 @@
 <h1> Hello World!</h1>
 
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8">
     <title>Optum Project</title>
     <style type="text/css">
         body {
@@ -13,13 +15,14 @@
         }
 
         div {
-            width: 60em;
+            width: 80%;
             margin: 5em auto;
             padding: 2em;
             background-color: #BF5434;
             border-radius: 1em;
             box-shadow: 1em, 1em, 1em
         }
+        
     </style>
 </head>
 
@@ -31,6 +34,10 @@
             paragraph...
         </p1>
     </div>
+    <div id="app">
+            {{ message }}
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
